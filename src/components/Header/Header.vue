@@ -1,18 +1,21 @@
 <template>
   <div>
-    <div class="header bg-pWhite">
+    <div class="header bg-pWhite pt-[20px]">
       <div class="container w-10/12 mx-auto flex justify-between px-[20px] items-center">
         <div class="logo_img">
-          <img
-            src="../../assets/images/Logo.png"
-            class="object-cover w-[210px]"
-            alt="Logo"
-          />
+            <router-link to="/">
+                <img
+                  src="../../assets/images/Logo.png"
+                  class="object-cover w-[210px]"
+                  alt="Logo"
+                />
+
+            </router-link>
         </div>
-        <div class="select">
-          <select name="" id="" class="border-[2px] border-pBlue rounded-[5px] px-[20px] active:border-pBlue uppercase">
-            <option class="uppercase" value="uz">UZ</option>
-            <option class="uppercase" value="ru">ru</option>
+        <div class="select ml-[-80px]">
+          <select name="" id="" class="border-[2px] border-pBlue rounded-[5px] px-[20px] active:border-pBlue uppercase cursor-pointer ">
+            <option class="uppercase cursor-pointer" value="uz">UZ</option>
+            <option class="uppercase cursor-pointer" value="ru">ru</option>
           </select>
         </div>
         <div class="location flex items-center">
@@ -39,7 +42,7 @@
         </div>
         <div class="time">
           <h1 class="font-bold text-[28px]">09:00 - 20:00</h1>
-          <div class="title">
+          <div class="flex items-center gap-[5px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -67,8 +70,8 @@
           </div>
         </div>
         <div class="contact">
-          <h1>+99897 628 28 82</h1>
-          <div class="flex">
+          <h1 class="font-bold text-[28px]">+99897 628 28 82</h1>
+          <div class="flex items-center gap-[5px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
