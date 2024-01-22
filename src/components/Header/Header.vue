@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="header bg-pWhite pt-[20px]">
-      <div class="container w-10/12 mx-auto flex justify-between px-[20px] items-center">
+    <div class="header bg-pWhite pt-[20px] pb-[30px]">
+      <div class="container flex justify-between px-[20px] items-center">
         <div class="logo_img">
             <router-link to="/">
                 <img
@@ -13,7 +13,7 @@
             </router-link>
         </div>
         <div class="select ml-[-80px]">
-          <select name="" id="" class="border-[2px] border-pBlue rounded-[5px] px-[20px] active:border-pBlue uppercase cursor-pointer ">
+          <select name="" id="" class="border-[2px] border-pBlue rounded-[5px] px-[20px] active:border-pBlue uppercase cursor-pointer py-[10px]">
             <option class="uppercase cursor-pointer" value="uz">UZ</option>
             <option class="uppercase cursor-pointer" value="ru">ru</option>
           </select>
@@ -38,7 +38,7 @@
               </clipPath>
             </defs>
           </svg>
-          <div class="title w-[143px]">Andijon shaxar, boychechak 4</div>
+          <div class="title w-[143px] ms-[10px]">Andijon shaxar, boychechak 4</div>
         </div>
         <div class="time">
           <h1 class="font-bold text-[28px]">09:00 - 20:00</h1>
@@ -102,6 +102,7 @@
 <script>
 export default {
   name: "Header",
+  
 };
 </script>
 

@@ -14,9 +14,13 @@ export default {
       },
       colors: {
         pBlue: '#07CDCF',
+        sBlue: '#F6FFFF',
         pBlack: '#000',
-        pWhite:'#ffffff',
-        textBlack:'#012424',
+        pWhite: '#ffffff',
+        textBlack: '#012424',
+        textSblack: '#374D4D',
+        pGray:'#E7F8FF',
+        bColor:'#87ABAB'
       },
 
     },
