@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@videojs-player/vue": "^1.0.0",
+    "video.js": "^8.9.0",
     "vue": "^3.3.11",
     "vue-router": "^4.2.5"
   },

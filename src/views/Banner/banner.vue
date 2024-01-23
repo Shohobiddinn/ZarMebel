@@ -18,7 +18,7 @@
               ever since the
             </p>
             <button
-              class="btn px-[35px] py-[15px] bg-pBlue inline rounded-[12px] text-pWhite text-[18px] font-[600] cursor-pointer select-none mb-[73px]"
+              class="btn px-[35px] py-[15px] bg-pBlue inline rounded-[12px] text-pWhite text-[18px] font-[600] cursor-pointer select-none mb-[73px] active:scale-[.97]"
             >
               Buyurtma berish
             </button>
@@ -26,20 +26,26 @@
               <div
                 class="text-center border-[2px] border-textSblack rounded-[12px] p-[20px] max-w-[167px]"
               >
-                <h3>250+</h3>
-                <p>Assortimentda mebellar</p>
+                <h3 class="text-[30px] font-[600] text-textBlack">250+</h3>
+                <p class="text-[18px] font-[500] text-textSblack">
+                  Assortimentda mebellar
+                </p>
               </div>
               <div
                 class="text-center border-[2px] border-textSblack rounded-[12px] p-[20px] max-w-[167px]"
               >
-                <h3>250+</h3>
-                <p>Assortimentda mebellar</p>
+                <h3 class="text-[30px] font-[600] text-textBlack">250+</h3>
+                <p class="text-[18px] font-[500] text-textSblack">
+                  Assortimentda mebellar
+                </p>
               </div>
               <div
                 class="text-center border-[2px] border-textSblack rounded-[12px] p-[20px] max-w-[167px]"
               >
-                <h3>250+</h3>
-                <p>Assortimentda mebellar</p>
+                <h3 class="text-[30px] font-[600] text-textBlack">250+</h3>
+                <p class="text-[18px] font-[500] text-textSblack">
+                  Assortimentda mebellar
+                </p>
               </div>
             </div>
             <form class="hidden">
@@ -68,7 +74,7 @@
             </div>
           </div>
           <div class="self-end translate-y-[-120px]">
-            <div class="p-[18px] rounded-[50%] bg-pBlue">
+            <div class="p-[18px] rounded-[50%] bg-pBlue active:scale-[.97] cursor-pointer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"

@@ -20,7 +20,9 @@ export default {
         textBlack: '#012424',
         textSblack: '#374D4D',
         pGray:'#E7F8FF',
-        bColor:'#87ABAB'
+        bColor:'#87ABAB',
+        bProduct:'#F6FFFF'
+
       },
 
     },
