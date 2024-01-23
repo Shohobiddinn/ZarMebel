@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@videojs-player/vue": "^1.0.0",
+    "aos": "^2.3.4",
+    "swiper": "11",
     "video.js": "^8.9.0",
     "vue": "^3.3.11",
     "vue-router": "^4.2.5"
