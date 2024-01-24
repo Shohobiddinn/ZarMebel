@@ -95,13 +95,13 @@
         <div class="flex gap-[50px] justify-between max-[930px]:flex-col">
           <div
             class="max-w-[410px] max-[930px]:max-w-full"
-            data-aos="fade-left"
+            data-aos="fade-up"
             data-aos-anchor-placement="center-bottom"
             data-aos-duration="800"
           >
             <h3
               class="text-[32px] font-semibold text-pBlack mb-5"
-              data-aos="fade-right"
+              data-aos="fade-up"
               data-aos-anchor-placement="center-bottom"
               data-aos-duration="800"
             >
@@ -109,7 +109,7 @@
             </h3>
             <p
               class="text-[20px] font-normal text-pBlack mb-8"
-              data-aos="fade-right"
+              data-aos="fade-up"
               data-aos-anchor-placement="center-bottom"
               data-aos-duration="900"
             >

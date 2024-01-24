@@ -13,7 +13,7 @@
         <div class="flex flex-wrap items-start gap-[30px] ">
           <div
             class="flex flex-col flex-auto justify-center items-center w-1/4 max-[1000px]:w-[250px]"
-            data-aos="fade-left"
+            data-aos="fade-up"
             data-aos-anchor-placement="center-bottom"
             data-aos-duration="800"
           >
@@ -47,7 +47,7 @@
             </p>
           </div>
           <div class="flex flex-col flex-auto justify-center items-center w-1/4 max-[1000px]:w-[250px]"
-          data-aos="fade-right"
+          data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="800"
           >
@@ -88,7 +88,7 @@
             </p>
           </div>
           <div class="flex flex-col flex-auto justify-center items-center w-1/4 max-[1000px]:w-[250px]"
-          data-aos="fade-left"
+          data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="800">
             <div
@@ -132,7 +132,7 @@
             </p>
           </div>
           <div class="flex flex-col flex-auto justify-center items-center w-1/4 max-[1000px]:w-[250px]"
-          data-aos="fade-right"
+          data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="800" 
           >

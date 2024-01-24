@@ -3,7 +3,7 @@
     <div class="container flex gap-[63px] max-[700px]:flex-col">
       <div
         class="w-6/12 max-[700px]:w-full"
-        data-aos="fade-right"
+        data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="800"
       >
@@ -37,7 +37,7 @@
       >
         <h1
           class="text-[38px] font-[600] text-textBlack mb-[20px]"
-          data-aos="fade-left"
+          data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="1200"
         >
@@ -45,7 +45,7 @@
         </h1>
         <p
           class="text-[18px] font-[400] text-textSblack mb-[68px]"
-          data-aos="fade-left"
+          data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="1200"
         >
@@ -55,7 +55,7 @@
         </p>
         <h5
           class="text-[20px] text-textBlack font-[600] mb-[20px]"
-          data-aos="fade-left"
+          data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="1200"
         >

@@ -5,7 +5,7 @@
         <div class="flex justify-between">
           <div
             class="max-w-[541px] max-[1170px]:max-w-full"
-            data-aos="fade-left"
+            data-aos="fade-up"
             data-aos-anchor-placement="center-bottom"
             data-aos-duration="800"
           >
@@ -81,7 +81,7 @@
           </div>
           <div
             class="relative translate-x-[-40px] max-[1170px]:hidden"
-            data-aos="fade-right"
+            data-aos="fade-up"
             data-aos-anchor-placement="center-bottom"
             data-aos-duration="800"
           >

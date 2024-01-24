@@ -9,7 +9,7 @@
           <div class="max-w-[478px] max-[1085px]:max-w-full">
             <h2
               class="text-[48px] text-textBlack leading-[130%] font-[600] mb-[25px]"
-              data-aos="fade-right"
+              data-aos="fade-up"
               data-aos-anchor-placement="center-bottom"
               data-aos-duration="1000"
             >
@@ -17,7 +17,7 @@
             </h2>
             <p
               class="text-[20px] font-[500] leading-[150%] text-textSblack mb-[30px]"
-              data-aos="fade-right"
+              data-aos="fade-up"
               data-aos-duration="1500"
               data-aos-anchor-placement="center-bottom"
             >
