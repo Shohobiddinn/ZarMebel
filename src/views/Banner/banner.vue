@@ -95,7 +95,7 @@
             </div>
           </div>
           <div
-            class="self-end translate-y-[-120px] max-[656px]:fixed max-[656px]:bottom-[10px] max-[656px]:z-[5]"
+            class="self-end translate-y-[-120px] max-[656px]:fixed max-[656px]:bottom-[-40px] max-[656px]:z-[5]"
           >
             <div
               class="p-[18px] rounded-[50%] bg-pBlue active:scale-[.97] cursor-pointer"
