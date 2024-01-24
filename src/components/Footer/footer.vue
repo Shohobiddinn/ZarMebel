@@ -11,7 +11,7 @@
         >
           Bizning mijozlarimiz ichida
         </h1>
-        <div class="relative mb-[80px]">
+        <div class="relative mb-[80px] hidden">
           <swiper
             :navigation="navigation"
             :modules="modules"
@@ -92,9 +92,9 @@
             </div>
           </div>
         </div>
-        <div class="flex gap-[50px] justify-between">
+        <div class="flex gap-[50px] justify-between max-[930px]:flex-col">
           <div
-            class="max-w-[410px]"
+            class="max-w-[410px] max-[930px]:max-w-full"
             data-aos="fade-left"
             data-aos-anchor-placement="center-bottom"
             data-aos-duration="800"
@@ -162,15 +162,15 @@
             </form>
           </div>
           <div
-            class="relative translate-x-[-40px]"
+            class="relative translate-x-[-40px] max-[930px]:w-full"
             data-aos="fade-right"
             data-aos-anchor-placement="center-bottom"
             data-aos-duration="800"
           >
-            <div class="rounded-[12px] overflow-hidden">
+            <div class="rounded-[12px] overflow-hidden w-[650px] max-[930px]:w-full">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2179.9378874119952!2d71.78130132280663!3d40.38293557361136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bb83a4e74c1d51%3A0x74f191ca540db19!2siTeach%20Academy!5e0!3m2!1sru!2s!4v1706015304979!5m2!1sru!2s"
-                width="600"
+                width="100%"
                 height="450"
                 style="border: 0"
                 allowfullscreen=""
@@ -180,14 +180,14 @@
               <div></div>
             </div>
             <div
-              class="absolute w-full h-full border-[2px] rounded-[12px] border-[#87ABAB] z-[-1] top-[40px] left-[40px]"
+              class="absolute w-full h-full border-[2px] rounded-[12px] border-[#87ABAB] z-[-1] top-[40px] left-[40px] max-[930px]:hidden"
             ></div>
           </div>
         </div>
       </div>
     </div>
     <div class="bg-bProduct pt-[20px] pb-[30px]">
-      <div class="container flex justify-between px-[20px] items-center">
+      <div class="container flex justify-between px-[20px] items-center flex-wrap gap-[30px]">
         <div
           class="logo_img"
           data-aos="fade-up"

@@ -30,7 +30,7 @@ export default {
     HeaderVue,
     banner,
     about,
-    product,
+    // product,
     contact,
     customer,
     thought,

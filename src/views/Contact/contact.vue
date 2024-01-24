@@ -4,13 +4,13 @@
       <div class="container">
         <div class="flex justify-between">
           <div
-            class="max-w-[541px]"
+            class="max-w-[541px] max-[1170px]:max-w-full"
             data-aos="fade-left"
             data-aos-anchor-placement="center-bottom"
             data-aos-duration="800"
           >
             <h1
-              class="text-[38px] font-[600] text-pBlack mb-[24px]"
+              class="text-[38px] font-[600] text-pBlack mb-[24px] max-[430px]:text-[32px]"
               data-aos="fade-up"
               data-aos-anchor-placement="center-bottom"
               data-aos-duration="900"
@@ -49,7 +49,7 @@
             </h5>
             <form
               @submit.prevent=""
-              class="flex flex-col"
+              class="flex flex-col max-[1170px]:w-1/2 max-[430px]:w-full"
               data-aos="fade-up"
               data-aos-anchor-placement="center-bottom"
               data-aos-duration="1200"
@@ -80,7 +80,7 @@
             </form>
           </div>
           <div
-            class="relative translate-x-[-40px]"
+            class="relative translate-x-[-40px] max-[1170px]:hidden"
             data-aos="fade-right"
             data-aos-anchor-placement="center-bottom"
             data-aos-duration="800"
@@ -96,7 +96,7 @@
           </div>
         </div>
         <div
-          class="flex items-center gap-[30px] mt-[30px]"
+          class="flex items-center gap-[30px] mt-[30px] max-[430px]:flex-col"
           data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="1000"
@@ -112,6 +112,18 @@
             olish mutlaqo bepul bo’lib, sizdan hech qanday to’lovni amalga
             oshirish talab qilinmaydi!
           </h5>
+        </div>
+        <div
+          class="flex justify-center translate-x-[-40px] mt-[30px] min-[1170px]:hidden "
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="800"
+        >
+          <img
+            src="../../assets/images/contact.png"
+            class="object-cover relative z-[1]"
+            alt="photo"
+          />
         </div>
       </div>
     </div>

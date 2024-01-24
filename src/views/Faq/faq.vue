@@ -3,15 +3,15 @@
     <div class="pt-[30px] pb-[40px] bg-[#E9F4F4]">
       <div class="container">
         <div
-          class="flex justify-between items-center"
+          class="flex justify-between items-center max-[800px]:flex-col "
           data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="600"
         >
-          <h6>Mebel borasida bepul maslahat olish:</h6>
-          <form @submit.prevent="" class="flex justify-between w-3/4">
+          <h6 class="max-[800px]:mb-[20px]">Mebel borasida bepul maslahat olish:</h6>
+          <form @submit.prevent="" class="flex justify-between w-3/4 max-[650px]:w-full max-[580px]:flex-col">
             <label
-              class="inline-block mb-[20px] w-1/3"
+              class="inline-block mb-[20px] w-1/3 max-[580px]:w-full"
               data-aos="fade-up"
               data-aos-anchor-placement="center-bottom"
               data-aos-duration="700"
@@ -26,7 +26,7 @@
             </label>
 
             <label
-              class="inline-block mb-[20px] w-1/3"
+              class="inline-block mb-[20px] w-1/3 max-[580px]:w-full"
               data-aos="fade-up"
               data-aos-anchor-placement="center-bottom"
               data-aos-duration="900"

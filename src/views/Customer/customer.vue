@@ -10,9 +10,9 @@
         >
           Nima uchun mijozlar aynan bizni tanlashadi?
         </h1>
-        <div class="flex">
+        <div class="flex flex-wrap items-start gap-[30px] ">
           <div
-            class="flex flex-col justify-center items-center w-1/4"
+            class="flex flex-col flex-auto justify-center items-center w-1/4 max-[1000px]:w-[250px]"
             data-aos="fade-left"
             data-aos-anchor-placement="center-bottom"
             data-aos-duration="800"
@@ -46,7 +46,7 @@
               Biz buyurtmani muddatida topshirishni eng muhim ish deb bilamiz!
             </p>
           </div>
-          <div class="flex flex-col justify-center items-center w-1/4"
+          <div class="flex flex-col flex-auto justify-center items-center w-1/4 max-[1000px]:w-[250px]"
           data-aos="fade-right"
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="800"
@@ -87,7 +87,7 @@
               Bizga miqdordan ko’ra, sifat muhiroqdir!
             </p>
           </div>
-          <div class="flex flex-col justify-center items-center w-1/4"
+          <div class="flex flex-col flex-auto justify-center items-center w-1/4 max-[1000px]:w-[250px]"
           data-aos="fade-left"
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="800">
@@ -131,7 +131,7 @@
               Biz doimo Xar bir mijozga o’zgacha yondashamiz!
             </p>
           </div>
-          <div class="flex flex-col justify-center items-center w-1/4"
+          <div class="flex flex-col flex-auto justify-center items-center w-1/4 max-[1000px]:w-[250px]"
           data-aos="fade-right"
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="800" 

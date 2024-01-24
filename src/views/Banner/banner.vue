@@ -1,10 +1,12 @@
 
 <template>
   <div>
-    <div class="bg-sBlue pt-[45px] pb-[50px]">
+    <div class="bg-sBlue pt-[45px] pb-[50px] overflow-y-hidden">
       <div class="container">
-        <div class="flex justify-between mb-[50px]">
-          <div class="max-w-[478px]">
+        <div
+          class="flex justify-between mb-[50px] max-[1085px]:flex-col max-[1085px]:items-center max-[1085px]:gap-[80px]"
+        >
+          <div class="max-w-[478px] max-[1085px]:max-w-full">
             <h2
               class="text-[48px] text-textBlack leading-[130%] font-[600] mb-[25px]"
               data-aos="fade-right"
@@ -32,13 +34,13 @@
               Buyurtma berish
             </button>
             <div
-              class="flex gap-[20px]"
-              data-aos="fade-left"
+              class="flex gap-[20px] max-[600px]:flex-wrap"
+              data-aos="fade-up"
               data-aos-anchor-placement="center-bottom"
               data-aos-duration="1500"
             >
               <div
-                class="text-center border-[2px] border-textSblack rounded-[12px] p-[20px] max-w-[167px]"
+                class="text-center border-[2px] border-textSblack rounded-[12px] p-[20px] w-[167px] flex-auto max-[580px]:max-w-full"
               >
                 <h3 class="text-[30px] font-[600] text-textBlack">250+</h3>
                 <p class="text-[18px] font-[500] text-textSblack">
@@ -46,7 +48,7 @@
                 </p>
               </div>
               <div
-                class="text-center border-[2px] border-textSblack rounded-[12px] p-[20px] max-w-[167px]"
+                class="text-center border-[2px] border-textSblack rounded-[12px] p-[20px] w-[167px] flex-auto max-[580px]:max-w-full"
               >
                 <h3 class="text-[30px] font-[600] text-textBlack">250+</h3>
                 <p class="text-[18px] font-[500] text-textSblack">
@@ -54,7 +56,7 @@
                 </p>
               </div>
               <div
-                class="text-center border-[2px] border-textSblack rounded-[12px] p-[20px] max-w-[167px]"
+                class="text-center border-[2px] border-textSblack rounded-[12px] p-[20px] w-[167px] flex-auto max-[580px]:max-w-full"
               >
                 <h3 class="text-[30px] font-[600] text-textBlack">250+</h3>
                 <p class="text-[18px] font-[500] text-textSblack">
@@ -76,7 +78,9 @@
               </label>
             </form>
           </div>
-          <div class="translate-x-[120px]">
+          <div
+            class="translate-x-[120px] max-[1085px]:max-w-full max-[730px]:hidden"
+          >
             <div
               class="card h-[643px] w-[472px] bg-pBlue rounded-[38px] relative"
             >
@@ -90,7 +94,9 @@
               />
             </div>
           </div>
-          <div class="self-end translate-y-[-120px]">
+          <div
+            class="self-end translate-y-[-120px] max-[656px]:fixed max-[656px]:bottom-[70px] max-[656px]:z-[5]"
+          >
             <div
               class="p-[18px] rounded-[50%] bg-pBlue active:scale-[.97] cursor-pointer"
             >
@@ -116,9 +122,9 @@
             </div>
           </div>
         </div>
-        <div class="flex justify-between">
+        <div class="flex justify-between flex-wrap gap-[50px]">
           <div
-            class="flex items-center gap-[20px] max-w-[368px]"
+            class="flex items-center gap-[20px] max-w-[368px] flex-auto max-[900px]:max-w-full max-[430px]:flex-col max-[430px]:justify-center"
             data-aos="fade-up"
             data-aos-anchor-placement="center-bottom"
             data-aos-duration="800"
@@ -145,7 +151,7 @@
                 />
               </svg>
             </div>
-            <div>
+            <div class="max-[430px]:text-center">
               <h6 class="text-[20px] font-[600] text-pBlack mb-[10px]">
                 Bepul yetkazib berish
               </h6>
@@ -156,7 +162,7 @@
             </div>
           </div>
           <div
-            class="flex items-center gap-[20px] max-w-[368px]"
+            class="flex items-center gap-[20px] max-w-[368px] flex-auto max-[900px]:max-w-full max-[430px]:flex-col max-[430px]:justify-center"
             data-aos="fade-up"
             data-aos-anchor-placement="center-bottom"
             data-aos-duration="1000"
@@ -181,7 +187,7 @@
                 />
               </svg>
             </div>
-            <div>
+            <div class="max-[430px]:text-center">
               <h6 class="text-[20px] font-[600] text-pBlack mb-[10px]">
                 Bepul yetkazib berish
               </h6>
@@ -192,7 +198,7 @@
             </div>
           </div>
           <div
-            class="flex items-center gap-[20px] max-w-[368px]"
+            class="flex items-center gap-[20px] max-w-[368px] flex-auto max-[900px]:max-w-full max-[430px]:flex-col max-[430px]:justify-center"
             data-aos="fade-up"
             data-aos-anchor-placement="center-bottom"
             data-aos-duration="1200"
@@ -219,7 +225,7 @@
                 />
               </svg>
             </div>
-            <div>
+            <div class="max-[430px]:text-center">
               <h6 class="text-[20px] font-[600] text-pBlack mb-[10px]">
                 Bepul yetkazib berish
               </h6>

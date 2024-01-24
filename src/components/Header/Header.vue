@@ -1,24 +1,24 @@
 <template>
   <div>
     <div class="header bg-pWhite pt-[20px] pb-[30px]">
-      <div class="container flex justify-between px-[20px] items-center">
+      <div class="container flex justify-between items-center">
         <div class="logo_img">
             <router-link to="/">
                 <img
                   src="../../assets/images/Logo.png"
-                  class="object-cover w-[210px]"
+                  class="object-cover w-[210px] max-[430px]:w-[150px]"
                   alt="Logo"
                 />
 
             </router-link>
         </div>
-        <div class="select ml-[-80px]">
-          <select name="" id="" class="border-[2px] border-pBlue rounded-[5px] px-[20px] active:border-pBlue uppercase cursor-pointer py-[10px]">
+        <div class="select ml-[-80px] max-[1195px]:ml-[0]">
+          <select name="" id="" class="border-[2px] border-pBlue rounded-[5px] px-[20px] max-[430px]:py-[2px] active:border-pBlue uppercase cursor-pointer py-[10px] outline-none">
             <option class="uppercase cursor-pointer" value="uz">UZ</option>
             <option class="uppercase cursor-pointer" value="ru">ru</option>
           </select>
         </div>
-        <div class="location flex items-center">
+        <div class="location flex items-center max-[820px]:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="44"
@@ -40,8 +40,8 @@
           </svg>
           <div class="title w-[143px] ms-[10px]">Andijon shaxar, boychechak 4</div>
         </div>
-        <div class="time">
-          <h1 class="font-bold text-[28px]">09:00 - 20:00</h1>
+        <div class="time max-[820px]:hidden">
+          <h1 class="font-bold text-[28px] max-[980px]:text-[18px]">09:00 - 20:00</h1>
           <div class="flex items-center gap-[5px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -69,8 +69,8 @@
             <p>Ish vaqtimiz</p>
           </div>
         </div>
-        <div class="contact">
-          <h1 class="font-bold text-[28px]">+99897 628 28 82</h1>
+        <div class="contact max-[500px]:hidden">
+          <h1 class="font-bold text-[28px] max-[980px]:text-[18px]">+99897 628 28 82</h1>
           <div class="flex items-center gap-[5px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"

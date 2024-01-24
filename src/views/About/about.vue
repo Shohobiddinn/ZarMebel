@@ -1,8 +1,8 @@
 <template>
   <div class="bg-pWhite py-[80px]">
-    <div class="container flex gap-[63px]">
+    <div class="container flex gap-[63px] max-[700px]:flex-col">
       <div
-        class="w-6/12"
+        class="w-6/12 max-[700px]:w-full"
         data-aos="fade-right"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="800"
@@ -30,7 +30,7 @@
         </div>
       </div>
       <div
-        class="w-6/12"
+        class="w-6/12 max-[700px]:w-full"
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="800"
