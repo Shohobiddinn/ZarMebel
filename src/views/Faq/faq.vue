@@ -2,10 +2,20 @@
   <div>
     <div class="pt-[30px] pb-[40px] bg-[#E9F4F4]">
       <div class="container">
-        <div class="flex justify-between items-center">
+        <div
+          class="flex justify-between items-center"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="600"
+        >
           <h6>Mebel borasida bepul maslahat olish:</h6>
           <form @submit.prevent="" class="flex justify-between w-3/4">
-            <label class="inline-block mb-[20px] w-1/3">
+            <label
+              class="inline-block mb-[20px] w-1/3"
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-duration="700"
+            >
               <span class="block text-[18px] font-[400] text-bColor">Ism</span>
               <input
                 type="text"
@@ -15,7 +25,12 @@
               />
             </label>
 
-            <label class="inline-block mb-[20px] w-1/3">
+            <label
+              class="inline-block mb-[20px] w-1/3"
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-duration="900"
+            >
               <span class="block text-[18px] font-[400] text-bColor"
                 >Telefon raqam</span
               >
@@ -27,6 +42,9 @@
               />
             </label>
             <button
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-duration="800"
               type="submit"
               class="btn self-center flex items-center justify-center px-[35px] py-[15px] bg-pBlue inline-block rounded-[12px] text-pWhite text-[18px] font-[600] cursor-pointer select-none active:scale-[.97] h-[51px]"
             >

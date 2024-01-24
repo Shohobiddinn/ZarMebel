@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="mb-[80px]">
-      <div class="container ">
+      <div class="container">
         <div class="flex justify-between items-center gap-[34px]">
           <h2 class="text-[38px] font-[600]">Assortiment</h2>
           <div class="flex justify-between w-full">
@@ -54,6 +54,9 @@
                 :key="item"
               >
                 <img
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-bottom"
+                  data-aos-duration="800"
                   :src="`https://picsum.photos/id/1${item}/1920/1080`"
                   class="rounded-[12px] h-full hover:scale-[1.01] duration-[0.3s]"
                   alt="photo"
@@ -69,6 +72,9 @@
                 :key="item"
               >
                 <img
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-bottom"
+                  data-aos-duration="800"
                   :src="`https://picsum.photos/id/2${item}/1920/1080`"
                   class="rounded-[12px] h-full hover:scale-[1.01] duration-[0.3s]"
                   alt="photo"
@@ -84,6 +90,9 @@
                 :key="item"
               >
                 <img
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-bottom"
+                  data-aos-duration="800"
                   :src="`https://picsum.photos/id/3${item}/1920/1080`"
                   class="rounded-[12px] h-full hover:scale-[1.01] duration-[0.3s]"
                   alt="photo"
@@ -99,6 +108,9 @@
                 :key="item"
               >
                 <img
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-bottom"
+                  data-aos-duration="800"
                   :src="`https://picsum.photos/id/4${item}/1920/1080`"
                   class="rounded-[12px] h-full hover:scale-[1.01] duration-[0.3s]"
                   alt="photo"
@@ -114,6 +126,9 @@
                 :key="item"
               >
                 <img
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-bottom"
+                  data-aos-duration="800"
                   :src="`https://picsum.photos/id/5${item}/1920/1080`"
                   class="rounded-[12px] h-full hover:scale-[1.01] duration-[0.3s]"
                   alt="photo"
@@ -129,6 +144,9 @@
                 :key="item"
               >
                 <img
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-bottom"
+                  data-aos-duration="800"
                   :src="`https://picsum.photos/id/6${item}/1920/1080`"
                   class="rounded-[12px] h-full hover:scale-[1.01] duration-[0.3s]"
                   alt="photo"
@@ -137,7 +155,12 @@
             </div>
           </div>
         </div>
-        <div class="flex justify-end items-center mt-[30px] gap-[30px]">
+        <div
+          class="flex justify-end items-center mt-[30px] gap-[30px]"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="800"
+        >
           <h5 class="text-[20px] font-[600] text-bColor">
             <span class="text-[#F50000]">*</span> Butun assortiment ro’yxatini
             yuklab oling!

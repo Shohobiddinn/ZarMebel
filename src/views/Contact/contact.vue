@@ -3,12 +3,27 @@
     <div class="pb-[80px]">
       <div class="container">
         <div class="flex justify-between">
-          <div class="max-w-[541px]">
-            <h1 class="text-[38px] font-[600] text-pBlack mb-[24px]">
+          <div
+            class="max-w-[541px]"
+            data-aos="fade-left"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="800"
+          >
+            <h1
+              class="text-[38px] font-[600] text-pBlack mb-[24px]"
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-duration="900"
+            >
               Aynan qandaydur o’lcham bo’yicha istalgan mebelingizni
               yasattirmoqchimsiz?
             </h1>
-            <p class="text-[18px] font-[400] text-pBlack mb-[41px]">
+            <p
+              class="text-[18px] font-[400] text-pBlack mb-[41px]"
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-duration="1000"
+            >
               Bizning mutaxassislar sizga
               <a
                 href="#"
@@ -18,7 +33,12 @@
               siz xoxlagan olchamda va materialda mebel narxini chiqarib
               berishadi
             </p>
-            <h5 class="text-[20px] font-[600] text-pBlack mb-[20px]">
+            <h5
+              class="text-[20px] font-[600] text-pBlack mb-[20px]"
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-duration="1100"
+            >
               Mutaxassis orqali sizga kerakli mebel narxini
               <a
                 href="#"
@@ -27,7 +47,13 @@
               </a>
               xisoblash uchun telefon raqamingizni qoldiring
             </h5>
-            <form @submit.prevent="" class="flex flex-col">
+            <form
+              @submit.prevent=""
+              class="flex flex-col"
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-duration="1200"
+            >
               <label class="inline-block mb-[20px]">
                 <span class="block text-[18px] font-[400] text-bColor"
                   >Ism</span
@@ -53,17 +79,28 @@
               </label>
             </form>
           </div>
-          <div class="relative translate-x-[-40px]">
+          <div
+            class="relative translate-x-[-40px]"
+            data-aos="fade-right"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="800"
+          >
             <img
               src="../../assets/images/contact.png"
               class="object-cover relative z-[1]"
               alt="photo"
             />
-            <div class="absolute z-[-1] border-[3px] translate-x-[40px] translate-y-[20px] left-0 top-0 bottom-0 right-0  rounded-[12px] border-bColor ">
-            </div>
+            <div
+              class="absolute z-[-1] border-[3px] translate-x-[40px] translate-y-[20px] left-0 top-0 bottom-0 right-0 rounded-[12px] border-bColor"
+            ></div>
           </div>
         </div>
-        <div class="flex items-center gap-[30px] mt-[30px]">
+        <div
+          class="flex items-center gap-[30px] mt-[30px]"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="1000"
+        >
           <button
             type="submit"
             class="btn px-[35px] py-[15px] bg-pBlue inline rounded-[12px] text-pWhite text-[18px] font-[600] cursor-pointer select-none active:scale-[.97]"
@@ -90,5 +127,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 </style>

@@ -27,14 +27,14 @@ export default {
     return {};
   },
   components: {
-    // HeaderVue,
-    // banner,
-    // about,
-    // product,
-    // contact,
-    // customer,
-    // thought,
-    // faq,
+    HeaderVue,
+    banner,
+    about,
+    product,
+    contact,
+    customer,
+    thought,
+    faq,
     footerVue,
   },
 };

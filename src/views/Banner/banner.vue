@@ -7,22 +7,36 @@
           <div class="max-w-[478px]">
             <h2
               class="text-[48px] text-textBlack leading-[130%] font-[600] mb-[25px]"
+              data-aos="fade-right"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-duration="1000"
             >
               Uyingiz uchun antiqa mebellar
             </h2>
             <p
               class="text-[20px] font-[500] leading-[150%] text-textSblack mb-[30px]"
+              data-aos="fade-right"
+              data-aos-duration="1500"
+              data-aos-anchor-placement="center-bottom"
             >
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the
             </p>
             <button
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-duration="1000"
               class="btn px-[35px] py-[15px] bg-pBlue inline rounded-[12px] text-pWhite text-[18px] font-[600] cursor-pointer select-none mb-[73px] active:scale-[.97]"
             >
               Buyurtma berish
             </button>
-            <div class="flex gap-[20px]">
+            <div
+              class="flex gap-[20px]"
+              data-aos="fade-left"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-duration="1500"
+            >
               <div
                 class="text-center border-[2px] border-textSblack rounded-[12px] p-[20px] max-w-[167px]"
               >
@@ -67,6 +81,9 @@
               class="card h-[643px] w-[472px] bg-pBlue rounded-[38px] relative"
             >
               <img
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom"
+                data-aos-duration="1000"
                 src="../../assets/images/banner_image.png"
                 class="object-cover absolute left-[-130px] top-[-70px]"
                 alt="image"
@@ -74,7 +91,9 @@
             </div>
           </div>
           <div class="self-end translate-y-[-120px]">
-            <div class="p-[18px] rounded-[50%] bg-pBlue active:scale-[.97] cursor-pointer">
+            <div
+              class="p-[18px] rounded-[50%] bg-pBlue active:scale-[.97] cursor-pointer"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -98,7 +117,12 @@
           </div>
         </div>
         <div class="flex justify-between">
-          <div class="flex items-center gap-[20px] max-w-[368px]">
+          <div
+            class="flex items-center gap-[20px] max-w-[368px]"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="800"
+          >
             <div
               class="rounded-[50%] border-[1px] border-bColor p-[29px] bg-pGray"
             >
@@ -131,7 +155,12 @@
               </p>
             </div>
           </div>
-          <div class="flex items-center gap-[20px] max-w-[368px]">
+          <div
+            class="flex items-center gap-[20px] max-w-[368px]"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="1000"
+          >
             <div
               class="rounded-[50%] border-[1px] border-bColor p-[29px] bg-pGray"
             >
@@ -162,7 +191,12 @@
               </p>
             </div>
           </div>
-          <div class="flex items-center gap-[20px] max-w-[368px]">
+          <div
+            class="flex items-center gap-[20px] max-w-[368px]"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="1200"
+          >
             <div
               class="rounded-[50%] border-[1px] border-bColor p-[29px] bg-pGray"
             >

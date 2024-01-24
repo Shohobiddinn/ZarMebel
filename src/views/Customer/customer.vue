@@ -2,11 +2,21 @@
   <div>
     <div class="bg-bProduct py-[40px]">
       <div class="container">
-        <h1 class="text-[38px] font-[600] text-pBlack text-center my-[40px]">
+        <h1
+          class="text-[38px] font-[600] text-pBlack text-center my-[40px]"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="800"
+        >
           Nima uchun mijozlar aynan bizni tanlashadi?
         </h1>
         <div class="flex">
-          <div class="flex flex-col justify-center items-center w-1/4">
+          <div
+            class="flex flex-col justify-center items-center w-1/4"
+            data-aos="fade-left"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="800"
+          >
             <div
               class="icon rounded-[50%] border-[1px] border-bColor p-[30px] bg-pGray mb-[20px]"
             >
@@ -36,7 +46,11 @@
               Biz buyurtmani muddatida topshirishni eng muhim ish deb bilamiz!
             </p>
           </div>
-          <div class="flex flex-col justify-center items-center w-1/4">
+          <div class="flex flex-col justify-center items-center w-1/4"
+          data-aos="fade-right"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="800"
+          >
             <div
               class="icon rounded-[50%] border-[1px] border-bColor p-[30px] bg-pGray mb-[20px]"
             >
@@ -73,7 +87,10 @@
               Bizga miqdordan ko’ra, sifat muhiroqdir!
             </p>
           </div>
-          <div class="flex flex-col justify-center items-center w-1/4">
+          <div class="flex flex-col justify-center items-center w-1/4"
+          data-aos="fade-left"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="800">
             <div
               class="icon rounded-[50%] border-[1px] border-bColor p-[30px] bg-pGray mb-[20px]"
             >
@@ -114,7 +131,11 @@
               Biz doimo Xar bir mijozga o’zgacha yondashamiz!
             </p>
           </div>
-          <div class="flex flex-col justify-center items-center w-1/4">
+          <div class="flex flex-col justify-center items-center w-1/4"
+          data-aos="fade-right"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="800" 
+          >
             <div
               class="icon rounded-[50%] border-[1px] border-bColor p-[30px] bg-pGray mb-[20px]"
             >
